@@ -1,0 +1,135 @@
+1. Date & Time
+
+Q7. List the emps who joined before 1981.
+
+Q17. List the emps who are joined in the year 81.
+
+Q28. List the emps those who joined in 80’s.
+
+Q34. List the emps who joined in any year but not belongs to the month of March.
+
+Q122. List the emps who joined in the company on the same date.
+
+Q133. Write a query to calculate the length of service of any employee with the company, use DEFINE to avoid repetitive typing of functions.
+
+Q185. List the emps who have joined in the year 1981.
+
+
+2. String Functions
+
+Q20. List the Enames those are having five characters in their Names.
+
+Q21. List the Enames those are starting with ‘S’ and with five characters.
+
+Q27. List the emps whose names having a character set ‘ll’ together.
+
+Q111. List the emps whose names contains ‘A’.
+
+
+
+3. Salary / Calculation
+
+Q43. List all the Grade 2 and Grade 3 emps.
+
+Q44. Display all Grade 4,5 Analyst and Mgr.
+
+Q53. List the Emps whose Sal is same as FORD or SMITH in desc order of Sal.
+
+Q56. List the emps who are senior to BLAKE working at CHICAGO & BOSTON.
+
+Q58. List the emps whose jobs same as SMITH or ALLEN.
+
+Q59. Write a Query to display the details of emps whose Sal is same as of Any jobs of deptno 10 those that are not found in deptno 20.
+
+Q64. List the most recently hired emp of grade3 belongs to location CHICAGO.
+
+Q69. List the most senior empl working under the king and grade is more than 3.
+
+Q70. Find the total sal given to the MGR.
+
+Q73. Display the average salaries of all the clerks.
+
+Q76. List the manager no and the number of employees working for those mgrs in the ascending Mgrno.
+
+Q79. Display dname, grade, No. of emps where at least two emps are clerks.
+
+Q87. List the grade, EMP name for the deptno 10 or deptno 30 but sal grade is not 4 while they joined the company before ’31-dec-82’.
+
+Q92. List the emp name, job, sal, grade and dname except clerks and sort on the basis of highest sal.
+
+Q95. List the emps whose sal is equal to the average of max and minimum.
+
+Q97. List the names of depts. Where atleast 3 are working in that department.
+
+Q100. List the emp whose sal < his manager but more than any other manager.
+
+Q102. Find out least 5 earners of the company.
+
+Q105. List the records from emp whose deptno is not in dept.
+
+Q145. Find Average salary and Average total remuneration for each Job type. Remember Salesman earn commission.
+
+Q148. List the employee Name, Job, Annual Salary, deptno, Dept name and grade who earn 36000 a year or who are not CLERKS.
+
+Q152. Find all the emps who earn the minimum Salary for each job wise in ascending order.
+
+Q158. Find the maximum average salary drawn for each job except for ‘President’.
+
+Q160. List the Name, Job and Salary of the emps who are not belonging to the department 10 but who have the same job and Salary as the emps of dept 10.
+
+Q163. List the Deptno and their average salaries for dept with the average salary less than the averages for all department.
+
+Q165. List out the Name, Job, Salary of the emps in the department with the highest average salary.
+
+
+
+
+4. Complex / Advanced Queries
+
+Q200. List the emp who are clerks who have exp more than 8ys.
+
+Q203. List the unique jobs of dept 20 and 30 in desc order.
+
+Q215. List the grade 2 and 3 emp of Chicago.
+
+Q218. List the emps whose job is same as smith.
+
+Q219. List the emps who are senior to miller.
+
+Q220. List the emps whose job is same as either allen or sal > allen.
+
+Q222. List the emps whose sal greater than blakes sal.
+
+Q223. List the dept 10 emps whose sal > allen sal.
+
+Q226. List the emps whose salgrade are greater than the grade of miller.
+
+Q227. List the emps who are belonging dallas or Chicago with the grade same as adams or exp more than smith.
+
+Q228. List the emps whose sal is same as ford or blake.
+
+
+
+| Topic                     | Questions                                                                  |  Count |
+| ------------------------- | -------------------------------------------------------------------------- | -----: |
+| **Joins**                 | Q43, Q44, Q53, Q56, Q58, Q59, Q64, Q69, Q70, Q87, Q92, Q95,  Q165,         |        |
+							  Q97, Q100, Q105, Q111, Q122, Q133, Q141, Q148, Q152, Q160, Q163			 |    36  |
+							  Q185, Q200, Q203, Q215, Q218, Q219, Q220, Q222, Q223, Q226, Q227, Q228     |        |
+| **Aggregation**           | Q145                                                                       |     1  |
+| **Subqueries**            | Q53, Q56, Q58, Q59, Q64, Q69, Q70, Q79, Q87, Q92, Q95, Q97, Q100, Q102,    |     —  |
+							  Q105, Q111, Q122, Q133, Q141, Q148, Q152, Q158, Q160, Q163, Q165, Q185,
+							  Q200, Q203, Q215, Q218, Q219, Q220, Q222, Q223, Q226, Q227, Q228.
+| **Ranking**               | Q102                                                                       |     1  |
+| **Self Join**             | Q102, Q158, Q163, Q185, Q200, Q203, Q215, Q218, Q219, Q220, Q221, Q222,    |     —  |
+                              Q223, Q226, Q227, Q228
+| **Basic SQL / Functions** | Q7, Q17, Q20, Q21, Q27, Q28, Q34                                           |     7  |
+| **Other / Advanced SQL**  | Q43, Q44, Q73, Q76, Q79, Q122, Q133, Q141, Q152, Q158                      |     10 |
+
+| **Total Questions**       																				   *48
+
+
+
+
+
+
+

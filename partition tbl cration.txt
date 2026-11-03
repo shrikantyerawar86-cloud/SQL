@@ -1,0 +1,88 @@
+CREATE TABLE
+ myproject2.taxi_trips_partition ( 
+field name	mode	type	description
+unique_key		STRING	
+taxi_id		STRING	
+trip_start_timestamp		TIMESTAMP	
+trip_end_timestamp		TIMESTAMP	
+trip_seconds		INTEGER	
+trip_miles		FLOAT	
+pickup_census_tract		INTEGER	
+dropoff_census_tract		INTEGER	
+pickup_community_area		INTEGER	
+dropoff_community_area		INTEGER	
+fare		FLOAT	
+tips		FLOAT	
+tolls		FLOAT	
+extras		FLOAT	
+trip_total		FLOAT	
+payment_type		STRING	
+company		STRING	
+pickup_latitude		FLOAT	
+pickup_longitude		FLOAT	
+pickup_location		STRING	
+dropoff_latitude		FLOAT	
+dropoff_longitude		FLOAT	
+dropoff_location		STRING )
+PARTITION BY date(trip_start_timestamp)	
+
+
+insert into myproject2.taxi_trips_partition select * from myproject2.taxi_trips  # where dt > 2016;
+
+
+
+
+CREATE TABLE IF NOT EXISTS `myproject3.sales_partition` (
+    invoice_and_item_number STRING,
+    date DATE,
+    store_number STRING,
+    store_name STRING,
+    address STRING,
+    city STRING,
+    zip_code STRING,
+    store_location GEOGRAPHY,
+    county_number STRING,
+    county STRING,
+    category STRING,
+    category_name STRING,
+    vendor_number STRING,
+    vendor_name STRING,
+    item_number STRING,
+    item_description STRING,
+    pack INT64,
+    bottle_volume_ml INT64,
+    state_bottle_cost FLOAT64,
+    state_bottle_retail FLOAT64,
+    bottles_sold INT64,
+    sale_dollars FLOAT64,
+    volume_sold_liters FLOAT64,
+    volume_sold_gallons FLOAT64
+)
+PARTITION BY DATE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

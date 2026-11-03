@@ -1,0 +1,19 @@
+
+===============Imp Question Point of Interview===============================================================================================================
+
+================Union Opertaor Question======================================================================================================================
+1) UNION()- Union is combine the result and duplicate.
+2) UNION ALL()- Union all is same also union he also combine 
+   the data but one think is different is do not remove dupliacte value.
+
+===============Windows Function =============================================================================================================================
+1) Row_Number()- Assign the unique number to each row within a partation.
+eg.
+
+2) Rank ()- Rank function uses the create gap in the number.
+3) Dense_Rank()- Dense rank function is don't create gap in the number.
+4) Lead()- Access data from the next row.
+5) Lag()- Access data from the previous row.
+6) First_value()- Return the first value in the windows.
+7) Last_value()- Return the lat value in the windows.
+

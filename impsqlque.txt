@@ -1,0 +1,233 @@
+1. SQL Fundamentals — ⭐ Important
+
+Focus: SELECT, WHERE, ORDER BY, DISTINCT, IN, BETWEEN, basic calculations.
+
+Important questions
+
+Q2 – Display unique Jobs
+Q3 – Employees in ascending salary
+Q4 – Department ascending and Job descending
+Q16 – Employees in Dept 10 or 20
+Q29 – Employees not in Dept 20
+Q30 – Exclude PRESIDENT and MANAGER
+Q35 – Clerks of Dept 20
+Q36 – Dept 30 or 10 employees joined in 1981
+Q43 – Grade 2 and Grade 3
+Q44 – Grade 4/5 Analyst and Manager
+Q175 – Salary less than 3500
+Q183 – Clerks or Managers
+
+
+2. SQL Joins — 🔥 Very Important
+
+This is one of the most important areas for a Data Engineer.
+
+The source explicitly uses EMP + DEPT relationships, including employee location, department name and manager relationships.
+
+Must practice
+
+Q38 – Location of SMITH
+Q39 – EMP information with DNAME and LOC
+Q40 – MGR/ANALYST with location and experience
+Q41 – Complex EMP + DEPT filtering
+Q47 – Departments with or without employees
+Q83 – Employees with department names
+Q84 – Employees not working in SALES
+Q85 – Employee name, department, salary, commission
+Q87 – Grade + employee + department
+Q88 – MGRs with department and location
+Q91 – Name, Job, DNAME, Salary, Grade
+Q209 – Employees working at Chicago
+Q210 – EMPNO, ENAME, DEPTNO, LOC
+Q211 – Employee + location + department
+Q212 – Chicago/Dallas employees
+Q213 – Dallas/New York employees
+Q215 – Grade 2/3 employees in Chicago
+Q216 – Accounting/Dallas/Chicago with grade and experience
+
+Interview priority
+
+Q39, Q40, Q47, Q83, Q85, Q88, Q91, Q210, Q212, Q213, Q216
+
+
+3. GROUP BY / Aggregation / HAVING — 🔥 Very Important
+
+This is extremely important for Data Engineer SQL.
+
+Important questions
+
+Q70 – Total salary given to Managers
+Q71 – Total annual salary job-wise
+Q72 – Total salary for Grade 3
+Q73 – Average salary of Clerks
+Q75 – Employee count by Job and Department
+Q76 – Manager number and employee count
+Q77 – Departments having at least 2 employees
+Q78 – Grade, employee count and maximum salary
+Q79 – DNAME, Grade and employee count
+Q80 – Department with maximum employees
+Q94 – Highest salary department-wise
+Q96 – Departments having more than 3 employees
+Q97 – Departments having at least 3 employees
+Q98 – Managers whose salary is greater than employee average
+Q101 – Average salary department-wise
+Q120 – Department with highest number of employees
+Q124 – Department with more than average employees
+Q125 – Manager with maximum employees
+Q145 – Average salary and remuneration by Job
+Q157 – Employee count and average salary by Department/Job
+Q158 – Maximum average salary by Job
+Q163 – Departments below overall average salary
+🔥 Must know
+
+Q75, Q77, Q78, Q80, Q94, Q96, Q98, Q101, Q120, Q124, Q145, Q157, Q158
+
+
+
+4. Subqueries — 🔥🔥 Very Important
+
+Your source has a large number of subquery problems.
+
+Important questions
+
+Q48 – Salary greater than BLAKE
+Q49 – Same Job as ALLEN
+Q50 – Employees senior to KING
+Q51 – Employees senior to their own managers
+Q52 – Dept 20 jobs same as Dept 10
+Q53 – Salary same as FORD or SMITH
+Q54 – Job same as MILLER OR salary greater than ALLEN
+Q55 – Salary greater than total remuneration of SALESMEN
+Q56 – Senior to BLAKE in specified locations
+Q57 – Grade 3/4 + department + salary + experience
+Q58 – Jobs same as SMITH or ALLEN
+Q59 – Salary comparison across departments
+Q61 – Highest salary
+Q62 – Highest-paid employee
+Q63 – Highest-paid Sales employee
+Q64 – Most recently hired employee
+Q65 – Senior employees relative to manager hierarchy
+🔥 Interview priority
+
+Q48, Q49, Q50, Q51, Q52, Q54, Q55, Q57, Q61, Q62, Q63, Q65
+
+
+
+5. Self Join / Manager Hierarchy — 🔥 Very Important
+
+This is especially useful because Data Engineer interviews frequently test understanding of hierarchical relationships.
+
+Important questions
+
+Q51 – Employees senior to their own managers
+Q81 – Employees whose manager is JONES
+Q86 – Employee salary greater than manager salary
+Q89 – Manager JONES and manager information
+Q98 – Manager salary vs employee average
+Q103 – Salary greater than manager
+Q104 – Managers not working under President
+Q139 – Managers earning less than employees
+Q140 – Employees subordinate to BLAKE
+Q141 – Managers using correlated subquery
+Q142 – Employees whose manager is JONES
+Q150 – Employees who joined before their managers
+Q151 – Employee and manager name/number
+Q164 – Employees earning more than their managers
+Q221 – Employees senior to their own manager
+Q224 – Managers senior/junior to specified employees
+Q238 – Highest-paid employee working under KING
+🔥 Must practice
+
+Q51, Q86, Q89, Q103, Q104, Q140, Q150, Q151, Q164, Q221, Q238
+
+
+
+6. Window Functions / Ranking — ⭐⭐⭐⭐⭐
+
+The original PDF does not explicitly teach modern window functions, but several questions are excellent candidates to rewrite using them.
+
+Source questions to convert to window functions
+Q94 – Highest salary department-wise
+Q102 – Least 5 earners
+Q120 – Department with highest employees
+Q125 – Manager with maximum employees
+Q152 – Minimum salary for each Job
+Q153 – Highest salary in each Job
+Q154 – Most recently hired in each Department
+Q155 – Salary greater than department average
+Q162 – Second-highest earnings
+Q165 – Employees in department with highest average salary
+Q235 – Highest-paid employee
+Q236 – Most recently hired employee of Dept 30
+Q237 – Highest-paid employee of Chicago
+
+
+
+7. Date & Time — ⭐⭐⭐⭐ Important
+
+Important questions
+Q7 – Joined before 1981
+Q17 – Joined in 1981
+Q18 – Joined in August 1980
+Q24 – Joined in January
+Q28 – Joined in the 1980s
+Q34 – Joined any year except March
+Q67 – Senior employee belonging to 1981
+Q110 – Joined in December
+Q117 – Joined before 15th
+Q122 – Same joining date
+Q130 – Date formatting
+Q132 – Day of week
+Q133 – Length of service
+Q135 – Employee payment date
+Q150 – Joined before manager
+Q154 – Most recently hired per department
+Q179 – Hire date and experience
+Q180 – Experience > 10 years
+Q185 – Joined in 1981
+Q195 – Joined in January
+Q199 – Joined in the 1980s
+
+
+
+
+
+My GCP Data Engineer Priority List
+
+If you don't have time to study all 238 questions, start with these:
+
+🔴 Tier 1 — Must Know
+
+Joins
+
+Q39, Q40, Q47, Q83, Q85, Q88, Q91, Q210, Q212, Q213, Q216
+
+Aggregation
+
+Q75, Q77, Q78, Q80, Q94, Q96, Q98, Q101, Q120, Q124, Q145, Q157
+
+Subqueries
+
+Q48, Q49, Q50, Q51, Q52, Q54, Q55, Q57, Q61, Q62, Q63, Q65
+
+Self Join
+
+Q51, Q86, Q89, Q103, Q104, Q140, Q150, Q151, Q164, Q221, Q238
+
+Ranking
+
+Q94, Q102, Q153, Q154, Q155, Q162, Q235, Q236, Q237
+
+
+Tier 2 — Strongly Recommended
+
+Q7, Q17, Q20, Q21, Q27, Q28, Q34, Q43, Q44, Q53, Q56, Q58, 
+Q59, Q64, Q69, Q70, Q73, Q76, Q79, Q87, Q92, Q95, Q97, Q100, 
+Q102, Q105, Q111, Q122, Q133, Q141, Q145, Q148, Q152, Q158, 
+Q160, Q163, Q165, Q185, Q200, Q203, Q215, Q218, Q219, Q220, 
+Q222, Q223, Q226, Q227, Q228.
+
+
+
+
+
